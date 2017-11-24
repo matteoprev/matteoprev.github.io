@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+}
+.stage {
+  color: white;
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+  height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+
+  justify-content: center;
+  align-items: center;
+
+  /* IE10+ */
+  background: -ms-linear-gradient(top right, #C04848 0%, #480048 100%);
+
+  /* Mozilla Firefox */
+  background: -moz-linear-gradient(top right, #C04848 0%, #480048 100%);
+
+  /* Opera */
+  background: -o-linear-gradient(top right, #C04848 0%, #480048 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background: -webkit-gradient(linear, right top, left bottom, color-stop(0, #C04848), color-stop(100, #480048));
+
+  /* Webkit (Chrome 11+) */
+  background: -webkit-linear-gradient(top right, #C04848 0%, #480048 100%);
+
+  /* W3C Markup */
+  background: linear-gradient(to bottom left, #C04848 0%, #480048 100%);
+
+/* #1D976C 0%, #93F9B9 */
+
+  text-shadow: 0 0 7em rgba(0,0,0, 0.7);
+}
+
+.title {
+  font-size: 4em;
+  letter-spacing: 0.15em;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 2em;
+  letter-spacing: 0.15em;
+  margin: 0;
+}
